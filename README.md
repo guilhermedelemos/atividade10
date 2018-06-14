@@ -4,6 +4,14 @@ Moodle: http://moodle.utfpr.edu.br/mod/assign/view.php?id=248804
 
 Foram escolhidos os exercício 7 e 8.
 
+Para executar os testes execute pelo terminal:
+
+./gradlew test
+
+./gradlew jacocoTestReport
+
+Os relatórios de testes ficam disponíveis no diretório build/reports
+
 ## Comentários sobre o exercício 7
 
 O grafo de fluxo de controle (GFC) foi feito manualmente com apoio da ferramenta http://graphonline.ru
