@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: "jacoco"
+
+jar {
+    baseName = 'demo-starter'
+    version = '0.0.1-SNAPSHOT'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+
+jacocoTestReport {
+    group = "Reporting"
+    reports {
+        xml.enabled true
+        csv.enabled false
+        html.destination "${buildDir}/reports/coverage"
+    }
+}

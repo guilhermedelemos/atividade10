@@ -14,4 +14,14 @@ public class Mutante2Test {
         Mutante2 m = new Mutante2();
         assertEquals(5, m.getMaior(vetor));
     }
+
+    /**
+     * Apenas para cobertura
+     */
+    @Test
+    public void getMaior1Test() {
+        int[] vetor = {4, 5, 1, 6, 3};
+        Mutante2 m = new Mutante2();
+        assertEquals(5, m.getMaior(vetor));
+    }
 }
