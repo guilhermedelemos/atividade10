@@ -1,6 +1,5 @@
 # Atividade 10
-
-Moodle: http://moodle.utfpr.edu.br/mod/assign/view.php?id=248804
+Disponível em: https://github.com/guilhermedelemos/atividade10
 
 Foram escolhidos os exercício 7 e 8.
 
@@ -17,6 +16,8 @@ Os relatórios de testes ficam disponíveis no diretório build/reports
 O grafo de fluxo de controle (GFC) foi feito manualmente com apoio da ferramenta http://graphonline.ru
 
 Os testes unitários foram construídos manualmente com base no grafo elaborado e validados por ferramenta de cobertura de testes.
+
+![Grafo de fluxo de controle](Exercicio-08-GFC.png)
 
 ## Comentários sobre o exercício 8
 
